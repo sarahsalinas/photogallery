@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TK Photography</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TK Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top">Top</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>Hello! <br>
+            <br>I’m TK, a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty, taking me worldwide.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and years are listed in the captions.</p>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="images/Chile.png" alt="beach in Chile with yellow undertones and two big rocks taken in 2001">
+                        <figcaption class="bottom white-font">Chile, 2001</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Guatemala.png" alt="Beautiful purple sky with purple and green bushes and a yellow ocean with mountains in the distance, taken in Guatemala, 1997">
+                        <figcaption class="top white-font">Guatemala, 1997</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Hawaii.png" alt="Huge green hilly mountains with bright aqua blue waters and huge puffy white clouds in Hawaii, 2010">
+                        <figcaption class="bottom white-font">Hawaii, 2010</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Iran.png" alt="Desert-like area with hills in the distance in Iran, 1999">
+                        <figcaption class="top black-font">Iran, 1999</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Ireland.png" alt="Vast luscious green hills and trees in a foggy atmosphere in Ireland, 2012">
+                        <figcaption class="top black-font">Ireland, 2012</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Italy.png" alt="Huge mountain view with a small lake in an aquamarine color in Italy, 2015">
+                        <figcaption class="bottom black-font">Italy, 2015</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Moab-Desert.png" alt="Sunrise viewed through Mesa Arch in Moab Desert, 2020">
+                        <figcaption class="bottom white-font">Moab Desert, 2020</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Rocky-Mountains.png" alt="Rugged coastal landscape with tall, jagged rock formations beside rough ocean waves under a cloudy sky in the Rocky Mountains, 2009">
+                        <figcaption class="top black-font">Rocky Mountains, 2009</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Switzerland.png" alt="A scenic view of snow-covered hills with a layer of fog in the valley and pine trees in the foreground in Switzerland, 2014">
+                        <figcaption class="top black-font">Switzerland, 2014</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/UK.png" alt="A scenic view of a valley surrounded by green hills with a moss-covered rock in the foreground in the UK, 2005">
+                        <figcaption class="top black-font">UK, 2005</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/USA.png" alt="A scenic view of a meadow covered with yellow wildflowers, with a sunset in the background in the USA, 2021">
+                        <figcaption class="top black-font">USA, 2021</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Wyoming.png" alt="A serene landscape with the sun setting behind a mountain peak, casting a warm glow on the rocky surface, surrounded by tall pine trees in Wyoming, 2021">
+                        <figcaption class="top white-font">Wyoming, 2021</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Please fill out this form, and I’ll connect with you soon.</p>
+            <form action="/submit" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name"><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address"><br>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="What can I help you with?" rows="1"></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <p>Copyright 2021 TK Photography</p>
+    </footer>
+</body>
+</html>
